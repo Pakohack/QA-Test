@@ -1,0 +1,91 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    /* Основной шрифт */
+    line-height: 1.6;
+    /* Высота строки для лучшей читаемости */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* Светлый фон */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* Центрирование контейнера */
+    padding: 20px;
+    background: #fff;
+    /* Белый фон для контейнера */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Тень для контейнера */
+}
+
+/* Стили заголовков */
+h1,
+h2 {
+    color: #333;
+    /* Темный цвет заголовков */
+}
+
+#main-title {
+    text-align: center;
+    /* Центрирование основного заголовка */
+    margin-bottom: 20px;
+}
+
+#resume-title,
+#skills-title,
+#experience-title,
+#contact-title,
+#navigation-title {
+    margin-top: 30px;
+    /* Отступ сверху для заголовков */
+}
+
+/* Стили для изображения */
+#profile-photo {
+    display: block;
+    margin: 20px auto;
+    /* Центрирование фото */
+    border-radius: 50%;
+    /* Круглая форма для фото */
+    border: 2px solid #ddd;
+    /* Рамка для фото */
+}
+
+/* Стили для описания */
+.description {
+    font-size: 1.1em;
+    /* Увеличенный шрифт для описания */
+    margin: 20px 0;
+    /* Отступ сверху и снизу */
+}
+
+/* Стили для списков */
+.skills-list,
+.experience-list,
+.navigation-list {
+    list-style-type: square;
+    /* Квадратные маркеры */
+    padding-left: 20px;
+    /* Отступ слева для списков */
+}
+
+li {
+    margin: 10px 0;
+    /* Отступ для элементов списка */
+}
+
+/* Стили для ссылок */
+a {
+    color: #007bff;
+    /* Синий цвет ссылок */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Подчеркивание при наведении */
+}
